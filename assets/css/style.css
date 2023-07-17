@@ -13,26 +13,36 @@ h2 {
     color: #252525;
 }
 
+/* Navigation links */
+
+#background {
+    background-size: cover;
+    background-color: darkslateblue;
+}
+
 #logo {
     float: left;
     font-size: 280%;
-    margin: 30px;
+    margin: 0 30px;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    float: none;
 }
 
 #menu,
 #logo {
     line-height: 75px;
+    display: flex;
+    position: sticky;
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin: 0 20px;
 }
 
 #menu a {
@@ -41,5 +51,26 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid gold;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: gold;
 }
