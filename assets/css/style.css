@@ -73,7 +73,7 @@ h2 {
     width: 50%;
     height: 400px;
     padding: 30px 40px;
-    background-color: rgba(211, 211, 211, .7);
+    background-color: rgba(211, 211, 211, .8);
     left: 250px;
     right: 150px;
     bottom: 50px;
@@ -172,4 +172,91 @@ footer p {
     height: 100%;
     text-align: center;
     margin: 5% 0 20% 0;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    #hero-outer {
+        width: 100%;
+    }
+
+    #menu {
+        clear: both;
+        width: 100%;
+        margin: 0 25%;
+    }
+
+    #logo {
+        clear: both;
+        padding-left: 7.5%;
+    }
+
+    #cover-text {
+        height: fit-content;
+    }
+
+    .equipment a {
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    footer {
+        width: 100%;
+        height: fit-content;
+        white-space: nowrap;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        width: 100%;
+        margin: 0 50px;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
+    #hero-outer {
+        padding-top: 0;
+        height: 750px;
+        width: 100%;
+    }
+
+    #hero-image {
+        padding-top: 0;
+        height: 750px;
+        width: 100%;
+    }
+
+    #cover-text {
+        height: fit-content;
+        padding-top: 10px;
+    }
+
+        .equipment a {
+            width: 100%;
+            white-space: nowrap;
+        }
+    
+        footer {
+            clear: right;
+            width: 100% fit-content;
+            height: fit-content;
+            padding-right: 0;
+            white-space: nowrap;
+        }
+        .social-networks a {
+            padding: 5px;
+        }
+    
+        hr {
+            display: none;
+        }
 }
