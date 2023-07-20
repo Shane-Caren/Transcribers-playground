@@ -51,7 +51,7 @@ h2 {
     list-style-type: none;
     text-decoration: none;
     text-align: center;
-    color: gold;
+    color: #ffd700;
     margin: 0 5px;
 }
 
@@ -134,7 +134,7 @@ h2 {
 footer {
     position: inherit;
     height: 160px;
-    background: darkslateblue;
+    background: #483d8b;
     width: 100%;
     padding: 0;
     margin: 0 auto;
@@ -247,7 +247,7 @@ footer p {
     
         footer {
             clear: right;
-            width: 100% fit-content;
+            width: 100%;
             height: fit-content;
             padding-right: 0;
             white-space: nowrap;
